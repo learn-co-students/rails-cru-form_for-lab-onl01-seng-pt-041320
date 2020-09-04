@@ -1,0 +1,7 @@
+<h1>Genre Edot Form</h1>
+<br />
+<%= form_for(@genre) do |f| %>
+    <%= f.label @genre.name %><br />
+    <%= f.text_field :name %><br />
+    <%= f.submit %>
+<% end %>
